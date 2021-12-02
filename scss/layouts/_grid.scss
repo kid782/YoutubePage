@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  background: $page-background-color;
+}
+.primary-content {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas: "main sidebar";
+  grid-gap: $spacing-middle;
+  padding: 5em 0;
+  @media (max-width: $breakpoint-big) {
+    grid-template-areas:
+      "main main"
+      "sidebar sidebar";
+  }
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside {
+  grid-area: sidebar;
+}

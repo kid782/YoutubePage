@@ -1,0 +1,22 @@
+{
+  "name": "youtubepage",
+  "version": "1.0.0",
+  "description": "youtube page and sass practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kid782/YoutubePage.git"
+  },
+  "author": "Stefan Beljin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kid782/YoutubePage/issues"
+  },
+  "homepage": "https://github.com/kid782/YoutubePage#readme",
+  "devDependencies": {
+    "sass": "^1.44.0"
+  }
+}

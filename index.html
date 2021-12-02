@@ -1,71 +1,1180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet" href="style.css">
-    <title>Youtube</title>
-</head>
-<body>
-    <header class="header-container">
-       <div class="start">
-           <button class="menu-btn">
-               <img src="images/menu-btn.png" alt="menu-btn">
-           </button>
-           <div class="logo">
-               <img src="images/Youtube-logo.png" alt="Youtube-logo">
-           </div>
-       </div>
-       <div class="center">
-           <input type="search">
-           <button>
-            <img src="images/search-icon.png" alt="top-menu-search-icon">
-           </button>
-           <button>
-                 <img src="images\microphone-icon.png" alt="top-menu-button-icon">
-           </button>
-       </div>
-       <div class="end">
-           <button>
-                <img src="images/top-menu-plus-icon.png" alt="top menu plus icon">
-           </button>
-           <button>
-                <img src="images/top-menu-grid-icon.png" alt="top menu grid icon">
-           </button>
-           <button>
-                <img src="images/top-menu-bell-icon.png" alt="top menu bell icon">
-           </button>
-           <button>
-                <img src="images/top-menu-profile-icon.png" alt="top menu profile icon">
-           </button>
-       </div>  
-    </header>
-
-    <div class="main-content-container">
-        <div class="video-area"> 
-            <video src="" controls></video>
-                <div class="video-info"></div>
-                    <h1>Name of the video</h1>
-                    <div class="under-video-info">
-                        <span>1.456.123 views</span>
-                        <button>
-                            <img src="images/likebutton.png" alt="like button">
-                        </button>
-                        <button> 
-                            <img src="images/dislikebutton.png" alt="dislike button">
-                        </button>
-                        <button>
-                            <img src="images/.png"
-                        </button>
-
-                    </div>
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZHU - Cocaine Model</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="grid">
+      <header class="header">
+        <div class="header__nav-1">
+          <div class="header__menu-button">
+            <svg
+              viewBox="0 0 24 24"
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+              class="style-scope yt-icon"
+              style="width: 30px; height: 30px"
+            >
+              <g class="style-scope yt-icon">
+                <path
+                  d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z"
+                  class="style-scope yt-icon"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="logo">
+            <div class="logo__container">
+              <img src="images/icons/logo.svg" alt="" class="logo__image" />
+            </div>
+            <span class="logo__title">YouTube</span>
+            <span class="logo__location">RS</span>
+          </div>
         </div>
-    
+        <div class="header__search">
+          <form action="" class="header__form">
+            <input
+              type="search"
+              name=""
+              id=""
+              class="header__input-search"
+              placeholder="Search"
+            />
+          </form>
+          <button class="header__search-button">
+            <svg
+              viewBox="0 0 24 24"
+              preserveAspectRatio="xMidYMid meet"
+              focusable="false"
+              class="style-scope yt-icon"
+              style="pointer-events: none; height: 35px"
+            >
+              <g class="style-scope yt-icon">
+                <path
+                  d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z"
+                  class="style-scope yt-icon"
+                ></path>
+              </g>
+            </svg>
+          </button>
+        </div>
+        <nav class="header__nav-2">
+          <ul class="header__list">
+            <li class="header__item">
+              <button class="header__controls">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope yt-icon"
+                  style="pointer-events: none; width: 30px; height: 30px"
+                >
+                  <g class="style-scope yt-icon">
+                    <path
+                      d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z"
+                      class="style-scope yt-icon"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </li>
+            <li class="header__item">
+              <button class="header__controls">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope yt-icon"
+                  style="pointer-events: none; width: 30px; height: 30px"
+                >
+                  <g class="style-scope yt-icon">
+                    <path
+                      d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+                      class="style-scope yt-icon"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </li>
+            <li class="header__item">
+              <button class="header__controls">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope yt-icon"
+                  style="pointer-events: none; width: 30px; height: 30px"
+                >
+                  <g class="style-scope yt-icon">
+                    <path
+                      d="M16,4v4h4V4H16z M19,7h-2V5h2V7z M16,10v4h4v-4H16z M19,13h-2v-2h2V13z M10,4v4h4V4H10z M13,7h-2V5h2V7z M10,10v4h4v-4H10z M13,13h-2v-2h2V13z M16,16v4h4v-4H16z M19,19h-2v-2h2V19z M10,16v4h4v-4H10z M13,19h-2v-2h2V19z M4,4v4h4V4H4z M7,7H5V5h2V7z M4,10 v4h4v-4H4z M7,13H5v-2h2V13z M4,16v4h4v-4H4z M7,19H5v-2h2V19z"
+                      class="style-scope yt-icon"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </li>
+            <li class="header__item">
+              <button class="header__controls">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="style-scope yt-icon"
+                  style="pointer-events: none; width: 30px; height: 30px"
+                >
+                  <g class="style-scope yt-icon">
+                    <path
+                      d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                      class="style-scope yt-icon"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </li>
+            <li class="header__item">
+              <button class="header__controls">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Слика аватара"
+                  height="32"
+                  width="32"
+                  src="https://yt3.ggpht.com/yti/APfAmoEuNphDoE1yhdV0n4c06-36hkiNELwxEN5Yz2oxfQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                />
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="primary-content">
+        <main class="main">
+          <div class="video">
+            <div class="video__player">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/DhO-FIBBkc8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <h2 class="video__title">
+              ZHU - Cocaine Model [OFFICIAL VIDEO HD]
+            </h2>
+            <div class="video__info">
+              <div class="video__grid">
+                <span class="video__views">27.274.800 views</span>
+                <div class="video__right-side">
+                  <div class="video__container video__container-likes">
+                    <button class="video__likes">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; width: 40px; height: 40px"
+                      >
+                        <g class="style-scope yt-icon">
+                          <path
+                            d="M3,11h3v10H3V11z M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11v10h10.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <span class="video__span video__number">285K</span>
+                  </div>
+                  <div class="video__container video__container-dislikes">
+                    <button class="video__dislike">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="
+                          pointer-events: none;
+                          display: inline;
+                          width: 40px;
+                          height: 40px;
+                        "
+                      >
+                        <g class="style-scope yt-icon">
+                          <path
+                            d="M17,4h-1H6.57C5.5,4,4.59,4.67,4.38,5.61l-1.34,6C2.77,12.85,3.82,14,5.23,14h4.23l-1.52,4.94C7.62,19.97,8.46,21,9.62,21 c0.58,0,1.14-0.24,1.52-0.65L17,14h4V4H17z M10.4,19.67C10.21,19.88,9.92,20,9.62,20c-0.26,0-0.5-0.11-0.63-0.3 c-0.07-0.1-0.15-0.26-0.09-0.47l1.52-4.94l0.4-1.29H9.46H5.23c-0.41,0-0.8-0.17-1.03-0.46c-0.12-0.15-0.25-0.4-0.18-0.72l1.34-6 C5.46,5.35,5.97,5,6.57,5H16v8.61L10.4,19.67z M20,13h-3V5h3V13z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <span class="video__span video__ds">DISLIKES</span>
+                  </div>
+                  <div class="video__container video__container--share">
+                    <button class="video__share">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; width: 40px; height: 40px"
+                      >
+                        <g mirror-in-rtl="" class="style-scope yt-icon">
+                          <path
+                            d="M15,5.63L20.66,12L15,18.37V15v-1h-1c-3.96,0-7.14,1-9.75,3.09c1.84-4.07,5.11-6.4,9.89-7.1L15,9.86V9V5.63 M14,3v6 C6.22,10.13,3.11,15.33,2,21c2.78-3.97,6.44-6,12-6v6l8-9L14,3L14,3z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <span class="video__span video__share">SHARE</span>
+                  </div>
+                  <div class="video__container video__container--save">
+                    <button class="video__save">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; width: 40px; height: 40px"
+                      >
+                        <g class="style-scope yt-icon">
+                          <path
+                            d="M22,13h-4v4h-2v-4h-4v-2h4V7h2v4h4V13z M14,7H2v1h12V7z M2,12h8v-1H2V12z M2,16h8v-1H2V16z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <span class="video__span video__save"> SAVE </span>
+                  </div>
+                  <div class="video__container video__container-dots">
+                    <button class="video__dots">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; width: 40px; height: 40px"
+                      >
+                        <g class="style-scope yt-icon">
+                          <path
+                            d="M7.5,12c0,0.83-0.67,1.5-1.5,1.5S4.5,12.83,4.5,12s0.67-1.5,1.5-1.5S7.5,11.17,7.5,12z M12,10.5c-0.83,0-1.5,0.67-1.5,1.5 s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5S12.83,10.5,12,10.5z M18,10.5c-0.83,0-1.5,0.67-1.5,1.5s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 S18.83,10.5,18,10.5z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="video__description">
+                <div class="uploader">
+                  <img
+                    id="img"
+                    alt=""
+                    width="48"
+                    src="https://yt3.ggpht.com/ytc/AKedOLSDXRalmSfgp6h9EzgLcBWSB-kZH16nvT8HYH2o=s88-c-k-c0x00ffffff-no-rj"
+                  />
+                </div>
+                <div class="uploader__stats">
+                  <h3 class="uploader__name">TigerBelly</h3>
+                  <span class="uploader__subscribers">643k subscribers</span>
+                </div>
+                <div class="uploader__action">
+                  <button class="uploader__subscribe">SUBSCRIBE</button>
+                  <button class="uploader__bell">
+                    <svg
+                      viewBox="0 0 24 24"
+                      preserveAspectRatio="xMidYMid meet"
+                      focusable="false"
+                      class="style-scope yt-icon"
+                      style="pointer-events: none; width: 40px; height: 40px"
+                    >
+                      <g class="style-scope yt-icon">
+                        <path
+                          d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"
+                          class="style-scope yt-icon"
+                        ></path>
+                      </g>
+                    </svg>
+                  </button>
+                </div>
+                <div class="uploader__desc">
+                  <p class="uploader__info">
+                    New Merch Drop Only @
+                    <a href="https://sleptkingdom.com"
+                      >https://sleptkingdom.com</a
+                    >
+                  </p>
+                  <p class="uploader__info">
+                    Exclusive TigerBelly NFTs @
+                    <a href="https://www.legaci.shop/tigerbelly"
+                      >https://www.legaci.shop/tigerbelly</a
+                    >
+                  </p>
+                  <p class="uploader__info">
+                    Thank you to our Sponsors:
+                    <a href="https://brooklinen.com">https://brooklinen.com</a>
+                    code: tiger &
+                    <a href="https://getroman.com/belly"
+                      >https://getroman.com/belly</a
+                    >
+                  </p>
+                  <p class="uploader__info uploader__info-margin">SHOW MORE</p>
+                </div>
+              </div>
+              
+            </div>
+            <!--video__info-->
+            <div class="comments">
+              <div class="comments__flex-container">
+                <div class="comments__sort-container">
+                  <div class="comments__numbers">10 comments</div>
+                  <div class="comments__sort-flex">
+                    <button class="comments__sort">
+                      <svg
+                        viewBox="0 0 24 24"
+                        preserveAspectRatio="xMidYMid meet"
+                        focusable="false"
+                        class="style-scope yt-icon"
+                        style="
+                          pointer-events: none;
+                          width: 40px;
+                          height: 40px;
+                        "
+                      >
+                        <g class="style-scope yt-icon">
+                          <path
+                            d="M21,6H3V5h18V6z M15,11H3v1h12V11z M9,17H3v1h6V17z"
+                            class="style-scope yt-icon"
+                          ></path>
+                        </g>
+                      </svg>
+                    </button>
+                    <div class="comments__sort-text">SORT BY</div>
+                  </div>
+                </div>
+                <div class="comments__comment-input">
+                  <img
+                    id="img"
+                    class="style-scope yt-img-shadow"
+                    alt="Stefan Beljin"
+                    height="40"
+                    width="40"
+                    src="https://yt3.ggpht.com/yti/APfAmoEuNphDoE1yhdV0n4c06-36hkiNELwxEN5Yz2oxfQ=s88-c-k-c0x00ffffff-no-rj"
+                  />
+                  <input
+                    type="text"
+                    id="komentar"
+                    onclick=changeColor()
+                    placeholder="Write your comment"
+                  />
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lmao KEK</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">Lorem ipsum dolor sit amet.</p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Illo ullam at eaque obcaecati, tempore deleniti hic
+                  exercitationem nostrum velit earum eum quae iusto iste nemo!
+                </p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid voluptas voluptatum praesentium ea non cupiditate
+                  vero recusandae at provident ad distinctio illum error quae
+                  dolor, et amet aspernatur reprehenderit corporis minus ipsum
+                  tempora! Dicta, doloribus distinctio impedit, accusantium
+                  rem rerum at sequi ex atque velit quidem earum quos libero
+                  maiores.
+                </p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+              <div class="comments__comment">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt="Chris Eide"
+                  height="40"
+                  width="40"
+                  src="https://yt3.ggpht.com/ytc/AKedOLRZeKBj7TmILMUKJbAv0OknTmERn04rp4d6nl9sWQ=s88-c-k-c0x00ffffff-no-rj"
+                />
+                <h4 class="comments__name">The Sunflower Samurai</h4>
+                <p class="comments__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure consequuntur, officiis deserunt vitae omnis iste
+                  tempora sint, dicta tempore autem, soluta ratione assumenda
+                  placeat. Nostrum repellat perferendis tempore voluptatem rem
+                  nobis totam quisquam facere repudiandae beatae! Quia nostrum
+                  ullam inventore corporis aliquid rem similique quam
+                  architecto nulla dicta repellat, quis sequi facere nobis
+                  iste debitis vitae a ut explicabo delectus voluptatum
+                  nesciunt? Ea est sapiente, molestias veritatis, officia
+                  cumque delectus exercitationem vitae nostrum deleniti quam
+                  cupiditate eveniet quod magni excepturi in maiores
+                  consectetur quibusdam aut. Facere tempora, mollitia
+                  doloribus ullam itaque iure, veniam aut dolor dolorum ipsum
+                  sit provident quos.
+                </p>
+                <div class="comments__controls">
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M12.42,14A1.54,1.54,0,0,0,14,12.87l1-4.24C15.12,7.76,15,7,14,7H10l1.48-3.54A1.17,1.17,0,0,0,10.24,2a1.49,1.49,0,0,0-1.08.46L5,7H1v7ZM9.89,3.14A.48.48,0,0,1,10.24,3a.29.29,0,0,1,.23.09S9,6.61,9,6.61L8.46,8H14c0,.08-1,4.65-1,4.65a.58.58,0,0,1-.58.35H6V7.39ZM2,8H5v5H2Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    viewBox="0 0 16 16"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; width: 20px; height: 20px"
+                  >
+                    <g class="style-scope yt-icon">
+                      <path
+                        d="M3.54,2A1.55,1.55,0,0,0,2,3.13L1,7.37C.83,8.24,1,9,2,9H6L4.52,12.54A1.17,1.17,0,0,0,5.71,14a1.49,1.49,0,0,0,1.09-.46L11,9h4V2ZM6.07,12.86a.51.51,0,0,1-.36.14.28.28,0,0,1-.22-.09l0-.05L6.92,9.39,7.5,8H2a1.5,1.5,0,0,1,0-.41L3,3.35A.58.58,0,0,1,3.54,3H10V8.61ZM14,8H11l0-5h3Z"
+                        class="style-scope yt-icon"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="comments__answer"> ANSWER </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--video-->
+        </main>
+        <aside class="aside">
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar__video">
+              <div class="sidebar__thumbnail">
+                <img
+                  id="img"
+                  class="style-scope yt-img-shadow"
+                  alt=""
+                  src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                />
+              </div>
+              <div class="sidebar__info">
+                <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                <div class="sidebar__profile">Bad Friends</div>
+                <sidebar__data>
+                  <span class="sidebar__views">391K views</span>
+                  <span class="sidebar__date">2 days ago</span>
+                </sidebar__data>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="sidebar">
+              <div class="sidebar__video">
+                <div class="sidebar__thumbnail">
+                  <img
+                    id="img"
+                    class="style-scope yt-img-shadow"
+                    alt=""
+                    src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                  />
+                </div>
+                <div class="sidebar__info">
+                  <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                  <div class="sidebar__profile">Bad Friends</div>
+                  <sidebar__data>
+                    <span class="sidebar__views">391K views</span>
+                    <span class="sidebar__date">2 days ago</span>
+                  </sidebar__data>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar">
+              <div class="sidebar">
+                <div class="sidebar__video">
+                  <div class="sidebar__thumbnail">
+                    <img
+                      id="img"
+                      class="style-scope yt-img-shadow"
+                      alt=""
+                      src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                    />
+                  </div>
+                  <div class="sidebar__info">
+                    <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                    <div class="sidebar__profile">Bad Friends</div>
+                    <sidebar__data>
+                      <span class="sidebar__views">391K views</span>
+                      <span class="sidebar__date">2 days ago</span>
+                    </sidebar__data>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar">
+                <div class="sidebar">
+                  <div class="sidebar__video">
+                    <div class="sidebar__thumbnail">
+                      <img
+                        id="img"
+                        class="style-scope yt-img-shadow"
+                        alt=""
+                        src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                      />
+                    </div>
+                    <div class="sidebar__info">
+                      <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                      <div class="sidebar__profile">Bad Friends</div>
+                      <sidebar__data>
+                        <span class="sidebar__views">391K views</span>
+                        <span class="sidebar__date">2 days ago</span>
+                      </sidebar__data>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar">
+                  <div class="sidebar">
+                    <div class="sidebar__video">
+                      <div class="sidebar__thumbnail">
+                        <img
+                          id="img"
+                          class="style-scope yt-img-shadow"
+                          alt=""
+                          src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                        />
+                      </div>
+                      <div class="sidebar__info">
+                        <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                        <div class="sidebar__profile">Bad Friends</div>
+                        <sidebar__data>
+                          <span class="sidebar__views">391K views</span>
+                          <span class="sidebar__date">2 days ago</span>
+                        </sidebar__data>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar">
+                    <div class="sidebar">
+                      <div class="sidebar__video">
+                        <div class="sidebar__thumbnail">
+                          <img
+                            id="img"
+                            class="style-scope yt-img-shadow"
+                            alt=""
+                            src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                          />
+                        </div>
+                        <div class="sidebar__info">
+                          <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                          <div class="sidebar__profile">Bad Friends</div>
+                          <sidebar__data>
+                            <span class="sidebar__views">391K views</span>
+                            <span class="sidebar__date">2 days ago</span>
+                          </sidebar__data>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sidebar">
+                      <div class="sidebar">
+                        <div class="sidebar__video">
+                          <div class="sidebar__thumbnail">
+                            <img
+                              id="img"
+                              class="style-scope yt-img-shadow"
+                              alt=""
+                              src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                            />
+                          </div>
+                          <div class="sidebar__info">
+                            <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                            <div class="sidebar__profile">Bad Friends</div>
+                            <sidebar__data>
+                              <span class="sidebar__views">391K views</span>
+                              <span class="sidebar__date">2 days ago</span>
+                            </sidebar__data>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sidebar">
+                        <div class="sidebar">
+                          <div class="sidebar__video">
+                            <div class="sidebar__thumbnail">
+                              <img
+                                id="img"
+                                class="style-scope yt-img-shadow"
+                                alt=""
+                                src="https://i.ytimg.com/vi/B1dDkWHZTrI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB3maUWtD3PFeO7t5vPE5DQ7VkhQQ"
+                              />
+                            </div>
+                            <div class="sidebar__info">
+                              <h4 class="sidebar__title">Black Monday w/ Erik Griffin</h4>
+                              <div class="sidebar__profile">Bad Friends</div>
+                              <sidebar__data>
+                                <span class="sidebar__views">391K views</span>
+                                <span class="sidebar__date">2 days ago</span>
+                              </sidebar__data>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sidebar">
+        </aside>
+      </div>
     </div>
-
-
-    
-</body>
+    <script>
+        function changeColor()
+    {
+   document.querySelector(".comments__comment-input > input[type='text'] ");
+    }
+    </script>
+  </body>
 </html>
